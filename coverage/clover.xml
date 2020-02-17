@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1581953996603" clover="3.2.0">
+  <project timestamp="1581953996603" name="All files">
+    <metrics statements="64" coveredstatements="46" conditionals="25" coveredconditionals="20" methods="23" coveredmethods="16" elements="112" coveredelements="82" complexity="0" loc="64" ncloc="64" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="/Users/aaa/Documents/code/coding/heartmini/lib/index.js">
+      <metrics statements="64" coveredstatements="46" conditionals="25" coveredconditionals="20" methods="23" coveredmethods="16"/>
+      <line num="14" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="22" count="3" type="cond" truecount="3" falsecount="1"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="36" count="3" type="stmt"/>
+      <line num="37" count="3" type="stmt"/>
+      <line num="39" count="3" type="stmt"/>
+      <line num="40" count="3" type="stmt"/>
+      <line num="41" count="3" type="stmt"/>
+      <line num="42" count="3" type="stmt"/>
+      <line num="43" count="3" type="stmt"/>
+      <line num="45" count="3" type="stmt"/>
+      <line num="50" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="57" count="0" type="stmt"/>
+      <line num="65" count="0" type="stmt"/>
+      <line num="68" count="4" type="stmt"/>
+      <line num="73" count="4" type="stmt"/>
+      <line num="74" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="77" count="4" type="stmt"/>
+      <line num="78" count="3" type="stmt"/>
+      <line num="79" count="3" type="stmt"/>
+      <line num="81" count="4" type="stmt"/>
+      <line num="82" count="0" type="stmt"/>
+      <line num="83" count="0" type="stmt"/>
+      <line num="85" count="4" type="stmt"/>
+      <line num="86" count="4" type="stmt"/>
+      <line num="87" count="4" type="stmt"/>
+      <line num="89" count="4" type="stmt"/>
+      <line num="91" count="4" type="stmt"/>
+      <line num="92" count="2" type="stmt"/>
+      <line num="95" count="2" type="stmt"/>
+      <line num="99" count="3" type="cond" truecount="2" falsecount="2"/>
+      <line num="100" count="0" type="stmt"/>
+      <line num="101" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="102" count="1" type="stmt"/>
+      <line num="103" count="1" type="stmt"/>
+      <line num="104" count="1" type="stmt"/>
+      <line num="106" count="1" type="stmt"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="108" count="1" type="stmt"/>
+      <line num="112" count="3" type="stmt"/>
+      <line num="115" count="6" type="stmt"/>
+      <line num="116" count="6" type="stmt"/>
+      <line num="119" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="120" count="3" type="stmt"/>
+      <line num="123" count="0" type="stmt"/>
+      <line num="127" count="0" type="stmt"/>
+      <line num="129" count="0" type="stmt"/>
+      <line num="134" count="9" type="stmt"/>
+      <line num="135" count="9" type="stmt"/>
+      <line num="139" count="3" type="stmt"/>
+      <line num="140" count="3" type="stmt"/>
+      <line num="141" count="3" type="stmt"/>
+      <line num="147" count="3" type="stmt"/>
+      <line num="148" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>
