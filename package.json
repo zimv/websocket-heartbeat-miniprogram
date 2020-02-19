@@ -42,6 +42,7 @@
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
     "conventional-changelog-cli": "^2.0.31",
+    "coveralls": "^3.0.9",
     "eslint": "^6.8.0",
     "jest": "^25.1.0",
     "jest-mock-console": "^1.0.0",
