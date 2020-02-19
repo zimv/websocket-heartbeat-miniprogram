@@ -20,7 +20,8 @@
   "keywords": [
     "zimv",
     "websocket",
-    "heartbeat"
+    "heartbeat",
+    "miniprogram"
   ],
   "author": "zimv",
   "license": "MIT",
@@ -45,7 +46,6 @@
     "coveralls": "^3.0.9",
     "eslint": "^6.8.0",
     "jest": "^25.1.0",
-    "jest-mock-console": "^1.0.0",
     "mock-socket": "^9.0.3",
     "pre-commit": "^1.2.2",
     "webpack": "^4.41.6",

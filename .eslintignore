@@ -1,2 +1,3 @@
 dist/
-test/taro-websocket-api
+/test/taro-websocket-api
+/coverage

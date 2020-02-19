@@ -1,7 +1,6 @@
 
 /* eslint-disable */
 import { Websocket, Server } from 'mock-socket';
-import mockConsole from 'jest-mock-console';
 import WebsocketHeartbeat from '../lib/index';
 
 /**
