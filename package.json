@@ -4,7 +4,7 @@
   "description": "websocket heartbeat for miniprogram",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "build": "webpack",
     "lint": "eslint .",
