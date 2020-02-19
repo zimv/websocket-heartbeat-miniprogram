@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zimv/websocket-heartbeat-js.git"
+    "url": "git+https://github.com/zimv/websocket-heartbeat-miniprogram.git"
   },
   "keywords": [
     "zimv",
@@ -29,9 +29,9 @@
     "lib"
   ],
   "bugs": {
-    "url": "https://github.com/zimv/websocket-heartbeat-js/issues"
+    "url": "https://github.com/zimv/websocket-heartbeat-miniprogram/issues"
   },
-  "homepage": "https://github.com/zimv/websocket-heartbeat-js#readme",
+  "homepage": "https://github.com/zimv/websocket-heartbeat-miniprogram#readme",
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/plugin-proposal-class-properties": "^7.8.3",

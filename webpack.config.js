@@ -2,7 +2,7 @@
 const path = require('path');
 const config = {
   entry: {
-    index: './test/websocketApi-test'
+    index: './lib/index.js'
   },
   output: {
     filename: 'index.js',
@@ -24,7 +24,6 @@ const config = {
       }
     ],
   },
-  target: 'node',
   mode: 'production'
 };
 module.exports = config;
