@@ -165,7 +165,7 @@ WebsocketHeartbeat方法返回一个promise，返回的task对象是本程序的
         console.log('socket onError');
     }
 
-#### task.onOpen `<function>`
+#### task.onOpen `<Function>`
 
     task.onopen = () => {
         console.log('open success');
@@ -187,5 +187,9 @@ WebsocketHeartbeat方法返回一个promise，返回的task对象是本程序的
 ## 博客 
 [小程序websocket心跳库——websocket-heartbeat-miniprogram][1]
 
+## 相关代码库
+[websocket-heartbeat-js][2]
+
 
   [1]: https://www.cnblogs.com/1wen/p/12302973.html
+  [2]: https://github.com/zimv/websocket-heartbeat-js
