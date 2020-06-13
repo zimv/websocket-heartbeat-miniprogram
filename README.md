@@ -11,7 +11,7 @@
 WebSocket heart beat for miniprogram
 
 ## 介绍
-websocket-heartbeat-miniprogram基于小程序的websocket相关API进行封装，主要目的是保障客户端websocket与服务端连接状态。该程序有心跳检测及自动重连机制，当网络断开或者后端服务问题造成客户端websocket断开，程序会自动尝试重新连接直到再次连接成功。兼容市面上大部分小程序微信，百度，支付宝等，只要都是统一的小程序weboscket-API规范。也支持小程序框架比如Taro等。无论如何，业务是需要一层心跳机制的，否则一些情况下会丢失连接导致功能无法使用。
+websocket-heartbeat-miniprogram基于小程序的websocket相关API进行封装，主要目的是保障客户端websocket与服务端连接状态。该程序有心跳检测及自动重连机制，当网络断开或者后端服务问题造成客户端websocket断开，程序会自动尝试重新连接直到再次连接成功。兼容市面上大部分小程序微信，百度，支付宝，uni等，只要都是统一的小程序weboscket-API规范。也支持小程序框架比如Taro等。无论如何，业务是需要一层心跳机制的，否则一些情况下会丢失连接导致功能无法使用。
 
 ----------
 
@@ -32,7 +32,7 @@ websocket-heartbeat-miniprogram基于小程序的websocket相关API进行封装�
             task.onOpen = () => {//钩子函数
                 console.log('open');
             };
-            task.onClose = （） => {//钩子函数
+            task.onClose = () => {//钩子函数
                 console.log('close');
             };
             task.onError = e => {//钩子函数
