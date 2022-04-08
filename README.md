@@ -167,7 +167,7 @@ WebsocketHeartbeat方法返回一个promise，返回的task对象是本程序的
 
 #### task.onOpen `<Function>`
 
-    task.onopen = () => {
+    task.onOpen = () => {
         console.log('open success');
     }
 
