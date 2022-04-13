@@ -1,3 +1,13 @@
+## [1.0.3](https://github.com/zimv/websocket-heartbeat-miniprogram/compare/v1.0.1...v1.0.3) (2022-04-13)
+
+
+### Bug Fixes
+
+* 支付宝小程序报错bug ([4d69672](https://github.com/zimv/websocket-heartbeat-miniprogram/commit/4d6967253bf733edb3892d154ba5cbf828048c75))
+* hooks params 透传 ([d7676ee](https://github.com/zimv/websocket-heartbeat-miniprogram/commit/d7676ee14105a9860ce0a9a851081fa062c0ccb4))
+
+
+
 ## [1.0.2](https://github.com/zimv/websocket-heartbeat-miniprogram/compare/v1.0.1...v1.0.2) (2022-04-08)
 
 
