@@ -29,10 +29,10 @@ websocket-heartbeat-miniprogram基于小程序的websocket相关API进行封装�
         }
     })
         .then(task => {
-            task.onOpen = () => {//钩子函数
+            task.onOpen = (e) => {//钩子函数
                 console.log('open');
             };
-            task.onClose = () => {//钩子函数
+            task.onClose = (e) => {//钩子函数
                 console.log('close');
             };
             task.onError = e => {//钩子函数
@@ -44,7 +44,7 @@ websocket-heartbeat-miniprogram基于小程序的websocket相关API进行封装�
             task.onReconnect = () => {//钩子函数
                 console.log('reconnect...');
             };
-            task.socketTask.onOpen(data => {//原生实例注册函数，重连后丢失
+            task.socketTask.onOpen(e => {//原生实例注册函数，重连后丢失
                 console.log('socketTask open');
             });
             task.socketTask.onMessage(data => {//原生实例注册函数，重连后丢失
@@ -116,7 +116,7 @@ WebsocketHeartbeat方法返回一个promise，返回的task对象是本程序的
 #### task.socketTask `<小程序SocketTask实例>`
 可以使用原生小程序API注册事件等
 
-    task.socketTask.onOpen(data => {//原生实例注册函数，重连后丢失
+    task.socketTask.onOpen(e => {//原生实例注册函数，重连后丢失
         console.log('socketTask open');
     });
 
@@ -155,19 +155,22 @@ WebsocketHeartbeat方法返回一个promise，返回的task对象是本程序的
 ### 钩子函数 *(推荐优先使用)*
 #### task.onClose `<Function>`
 
-    task.onClose = () => {
+    task.onClose = (e) => {
+        console.log(e);
         console.log('connect close');
     }
 
 #### task.onError `<Function>`
 
-    task.onError = () => {
+    task.onError = (e) => {
+        console.log(e);
         console.log('socket onError');
     }
 
 #### task.onOpen `<Function>`
 
-    task.onOpen = () => {
+    task.onOpen = (e) => {
+        console.log(e);
         console.log('open success');
     }
 
@@ -179,7 +182,7 @@ WebsocketHeartbeat方法返回一个promise，返回的task对象是本程序的
 
 #### task.onReconnect `<Function>`
 
-    task.onReconnect = (e) => {
+    task.onReconnect = () => {
         console.log('reconnecting...');
     }
 
