@@ -144,7 +144,7 @@ WebsocketHeartbeat方法返回一个promise，返回的task对象是本程序的
         ...
     })
 
-### taks.close(Object object) `<Function>`
+### task.close(Object object) `<Function>`
 前端手动断开socket连接，此方法不会触发重连。
 参数等同于小程序taskSocket.close方法
 
